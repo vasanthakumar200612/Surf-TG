@@ -2,6 +2,4 @@ services:
   - name: api
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python3 -m bot"
-    env: 
-      - key: "PYTHONUNBUFFERED"
-        value: "true"
+    
